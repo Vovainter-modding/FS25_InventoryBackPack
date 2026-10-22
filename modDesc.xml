@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modDesc descVersion="115">
+    <author>Vovainter</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Inventory BackPack For Multiplayer</en>
+        <de>Inventarrucksack Für Mehrspieler</de>
+        <ru>Рюкзак Для Мультиплеера</ru>
+    </title>
+    <description>
+        <en><![CDATA[
+Inventory BackPack for Multiplayer adds a personal backpack for portable items in Farming Simulator 25. Each player can carry up to 15 items in a 5 x 3 grid. Select items with the mouse or arrow keys and use Enter to drop the selected item. Use I to open the backpack and Y to pick up a portable object while on foot.
+
+Designed for multiplayer, including dedicated servers. The inventory owner and item references are stored inside each savegame. Only objects the game considers portable and that can be saved persistently are accepted. Tractors, trailers, and machines are excluded.
+
+This is a PC multiplayer mod. Back up your savegame before deploying it to a production server.
+]]></en>
+        <de><![CDATA[
+Inventory BackPack for Multiplayer fuegt einen persoenlichen Rucksack fuer tragbare Gegenstaende in Farming Simulator 25 hinzu. Jeder Spieler kann bis zu 15 Gegenstaende in einem Raster mit 5 Spalten und 3 Reihen transportieren. Gegenstaende werden per Maus oder Pfeiltasten ausgewaehlt und mit Enter abgelegt. Mit I wird der Rucksack geoeffnet, mit Y werden tragbare Gegenstaende zu Fuss aufgenommen.
+
+Der Mod ist fuer Multiplayer und dedizierte Server ausgelegt. Die Zuordnung der Gegenstaende zum Spieler wird getrennt in jedem Spielstand gespeichert. Traktoren, Anhaenger und Maschinen koennen nicht eingelagert werden.
+
+Dieser PC-Mod befindet sich im Test. Bitte vor dem Einsatz auf einem produktiven Server eine Sicherung des Spielstands erstellen.
+]]></de>
+        <ru><![CDATA[
+Inventory BackPack for Multiplayer добавляет личный рюкзак для переносимых предметов в Farming Simulator 25. Каждый игрок может хранить до 15 предметов в сетке 5 × 3. Выбирать предметы можно мышью или стрелками, выкладывать — клавишей Enter. Клавиша I открывает рюкзак, а Y позволяет подобрать переносимый предмет, когда игрок находится вне техники.
+
+Предназначен для сетевой игры, включая выделенные серверы. Принадлежность предметов игрокам сохраняется отдельно в папке каждой сохранки. Тракторы, прицепы и техника не помещаются в рюкзак.
+
+Версия для ПК. Перед установкой на основной сервер создайте резервную копию сохранки.
+]]></ru>
+    </description>
+    <iconFilename>icon_FS25_InventoryBackPack_for_Multiplayer.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="scripts/InventoryBackpackDialog.lua"/>
+        <sourceFile filename="scripts/BackpackMPEvent.lua"/>
+        <sourceFile filename="scripts/PlayerBackpack.lua"/>
+        <sourceFile filename="scripts/BackpackPersistence.lua"/>
+    </extraSourceFiles>
+    <actions>
+        <action name="PB_OPEN" axisType="HALF" displayCategory="PLAYER_INTERACTIVE"/>
+        <action name="PB_STORE" axisType="HALF" displayCategory="PLAYER_INTERACTIVE"/>
+    </actions>
+    <inputBinding>
+        <actionBinding action="PB_OPEN"><binding device="KB_MOUSE_DEFAULT" input="KEY_i"/></actionBinding>
+        <actionBinding action="PB_STORE"><binding device="KB_MOUSE_DEFAULT" input="KEY_y"/></actionBinding>
+    </inputBinding>
+    <l10n>
+        <text name="input_PB_OPEN"><en>Open Backpack</en><de>Rucksack Öffnen</de><ru>Открыть рюкзак</ru></text>
+        <text name="input_PB_STORE"><en>Store Portable Item</en><de>Gegenstand Einlagern</de><ru>Убрать предмет в рюкзак</ru></text>
+    </l10n>
+</modDesc>

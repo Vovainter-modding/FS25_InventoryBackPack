@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GUI onOpen="onOpen" onClose="onClose">
+  <GuiElement profile="newLayer"/>
+  <Bitmap profile="dialogFullscreenBg" id="dialogBg" imageColor="0 0 0 0"/>
+  <GuiElement profile="lsfmCarouselDialog" id="dialogElement">
+    <Bitmap profile="lsfmCarouselStripBg"/>
+    <GuiElement profile="lsfmCarouselContent">
+      <GuiElement profile="lsfmCarouselHeader">
+        <Bitmap profile="lsfmCarouselHeaderIconBg">
+          <Bitmap profile="lsfmCarouselHeaderIcon" id="titleIcon"/>
+        </Bitmap>
+        <Text profile="lsfmCarouselHeaderTitle" text="РЮКЗАК"/>
+        <Bitmap profile="lsfmCarouselHeaderBorder"/>
+      </GuiElement>
+      <Button profile="ibpGridCard" position="65px -103px" id="slotButton[1]" focusId="ibpGridSlot01" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeRight="ibpGridSlot02" focusChangeBottom="ibpGridSlot06">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[1]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[1]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[1]"/>
+        <Text profile="ibpGridCount" id="slotCount[1]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="197px -103px" id="slotButton[2]" focusId="ibpGridSlot02" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot01" focusChangeRight="ibpGridSlot03" focusChangeBottom="ibpGridSlot07">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[2]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[2]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[2]"/>
+        <Text profile="ibpGridCount" id="slotCount[2]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="329px -103px" id="slotButton[3]" focusId="ibpGridSlot03" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot02" focusChangeRight="ibpGridSlot04" focusChangeBottom="ibpGridSlot08">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[3]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[3]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[3]"/>
+        <Text profile="ibpGridCount" id="slotCount[3]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="461px -103px" id="slotButton[4]" focusId="ibpGridSlot04" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot03" focusChangeRight="ibpGridSlot05" focusChangeBottom="ibpGridSlot09">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[4]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[4]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[4]"/>
+        <Text profile="ibpGridCount" id="slotCount[4]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="593px -103px" id="slotButton[5]" focusId="ibpGridSlot05" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot04" focusChangeBottom="ibpGridSlot10">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[5]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[5]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[5]"/>
+        <Text profile="ibpGridCount" id="slotCount[5]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="65px -241px" id="slotButton[6]" focusId="ibpGridSlot06" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeRight="ibpGridSlot07" focusChangeTop="ibpGridSlot01" focusChangeBottom="ibpGridSlot11">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[6]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[6]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[6]"/>
+        <Text profile="ibpGridCount" id="slotCount[6]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="197px -241px" id="slotButton[7]" focusId="ibpGridSlot07" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot06" focusChangeRight="ibpGridSlot08" focusChangeTop="ibpGridSlot02" focusChangeBottom="ibpGridSlot12">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[7]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[7]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[7]"/>
+        <Text profile="ibpGridCount" id="slotCount[7]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="329px -241px" id="slotButton[8]" focusId="ibpGridSlot08" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot07" focusChangeRight="ibpGridSlot09" focusChangeTop="ibpGridSlot03" focusChangeBottom="ibpGridSlot13">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[8]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[8]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[8]"/>
+        <Text profile="ibpGridCount" id="slotCount[8]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="461px -241px" id="slotButton[9]" focusId="ibpGridSlot09" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot08" focusChangeRight="ibpGridSlot10" focusChangeTop="ibpGridSlot04" focusChangeBottom="ibpGridSlot14">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[9]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[9]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[9]"/>
+        <Text profile="ibpGridCount" id="slotCount[9]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="593px -241px" id="slotButton[10]" focusId="ibpGridSlot10" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot09" focusChangeTop="ibpGridSlot05" focusChangeBottom="ibpGridSlot15">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[10]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[10]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[10]"/>
+        <Text profile="ibpGridCount" id="slotCount[10]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="65px -379px" id="slotButton[11]" focusId="ibpGridSlot11" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeRight="ibpGridSlot12" focusChangeTop="ibpGridSlot06" focusChangeBottom="lsfmAction">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[11]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[11]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[11]"/>
+        <Text profile="ibpGridCount" id="slotCount[11]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="197px -379px" id="slotButton[12]" focusId="ibpGridSlot12" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot11" focusChangeRight="ibpGridSlot13" focusChangeTop="ibpGridSlot07" focusChangeBottom="lsfmAction">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[12]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[12]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[12]"/>
+        <Text profile="ibpGridCount" id="slotCount[12]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="329px -379px" id="slotButton[13]" focusId="ibpGridSlot13" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot12" focusChangeRight="ibpGridSlot14" focusChangeTop="ibpGridSlot08" focusChangeBottom="lsfmAction">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[13]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[13]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[13]"/>
+        <Text profile="ibpGridCount" id="slotCount[13]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="461px -379px" id="slotButton[14]" focusId="ibpGridSlot14" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot13" focusChangeRight="ibpGridSlot15" focusChangeTop="ibpGridSlot09" focusChangeBottom="lsfmAction">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[14]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[14]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[14]"/>
+        <Text profile="ibpGridCount" id="slotCount[14]"/>
+      </Button>
+      <Button profile="ibpGridCard" position="593px -379px" id="slotButton[15]" focusId="ibpGridSlot15" onClick="onClickSlot" onFocus="onFocusSlot" focusChangeLeft="ibpGridSlot14" focusChangeTop="ibpGridSlot10" focusChangeBottom="lsfmAction">
+        <Bitmap profile="fs25_shopListItemBackground" id="slotBackground[15]"/>
+        <Bitmap profile="lsfmCarouselEmptyBackground" id="slotEmptyBackground[15]" visible="false"/>
+        <Bitmap profile="ibpGridIcon" id="slotIcon[15]"/>
+        <Text profile="ibpGridCount" id="slotCount[15]"/>
+      </Button>
+      <Text profile="lsfmCarouselDetailTitle" id="detailTitle"/>
+      <Text profile="lsfmCarouselPosition" id="carouselPositionText"/>
+      <Bitmap profile="lsfmCarouselPositionMarker"/>
+      <Text profile="lsfmCarouselDetailText" id="detailText"/>
+      <Button profile="ibpOverflowButton" id="overflowButton" onClick="onClickOverflow" text="ЕЩЁ ПРЕДМЕТЫ" visible="false" focusId="ibpOverflow"><ThreePartBitmap profile="lsfmCarouselActionButtonBg"/></Button><Button profile="lsfmCarouselActionButton" text="ВЫЛОЖИТЬ ПРЕДМЕТ" onClick="onClickAction" id="actionButton" focusId="lsfmAction" focusChangeTop="ibpGridSlot13" focusChangeBottom="lsfmHolster">
+        <ThreePartBitmap profile="lsfmCarouselActionButtonBg"/>
+      </Button>
+    </GuiElement>
+    <BoxLayout profile="fs25_dialogButtonBox">
+      <Button profile="buttonDelete" text="ЗАКРЫТЬ" onClick="onCloseButton" id="holsterButton" focusId="lsfmHolster" focusChangeTop="lsfmAction" focusChangeRight="lsfmClose"/>
+      <Bitmap profile="fs25_dialogButtonBoxSeparator"/>
+      <Button profile="buttonBack" text="$l10n_button_back" onClick="onCloseButton" id="closeButton" focusId="lsfmClose" focusChangeLeft="lsfmHolster" focusChangeTop="lsfmAction"/>
+    </BoxLayout>
+  </GuiElement>
+  <GUIProfiles>
+    <Profile name="lsfmCarouselDialog" extends="baseReference" with="pivotMiddleCenter">
+      <size value="775px 805px"/>
+    </Profile>
+    <Profile name="lsfmCarouselStripBg" extends="baseReference" with="anchorStretchingYStretchingX">
+      <imageColor value="$preset_fs25_colorMainGrey"/>
+    </Profile>
+    <Profile name="lsfmCarouselContent" extends="emptyPanel" with="anchorStretchingYStretchingX pivotTopLeft">
+      <position value="0px -4px"/>
+      <absoluteSizeOffset value="0px 79px"/>
+    </Profile>
+    <Profile name="lsfmCarouselHeader" extends="emptyPanel" with="anchorTopStretchingX">
+      <position value="20px -8px"/>
+      <height value="60px"/>
+      <absoluteSizeOffset value="40px 0px"/>
+    </Profile>
+    <Profile name="lsfmCarouselHeaderIconBg" extends="fs25_menuHeaderIconBg" with="anchorMiddleLeft">
+      <position value="0px 0px"/>
+      <size value="52px 52px"/>
+    </Profile>
+    <Profile name="lsfmCarouselHeaderIcon" extends="fs25_menuHeaderIcon" with="anchorMiddleCenter">
+      <size value="40px 40px"/>
+      <imageSliceId value="noSlice"/>
+      <imageColor value="$preset_fs25_colorMainDark"/>
+    </Profile>
+    <Profile name="lsfmCarouselHeaderTitle" extends="fs25_menuHeaderTitle" with="anchorMiddleLeft">
+      <position value="72px 0px"/>
+      <size value="550px 50px"/>
+      <textSize value="28px"/>
+    </Profile>
+    <Profile name="lsfmCarouselHeaderBorder" extends="baseReference" with="anchorBottomStretchingX">
+      <height value="1dp"/>
+      <imageColor value="$preset_fs25_colorGreyLight_50"/>
+    </Profile>
+    <Profile name="lsfmCarouselEmptyBackground" extends="fs25_shopListItemBackgroundEmpty">
+      <imageDisabledColor value="1 1 1 0.25"/>
+    </Profile>
+    <Profile name="lsfmCarouselDetailTitle" extends="fs25_textDefault" with="anchorTopCenter">
+      <position value="0px -544px"/>
+      <size value="710px 34px"/>
+      <textSize value="20px"/>
+      <textBold value="true"/>
+      <textUpperCase value="true"/>
+      <textAlignment value="center"/>
+      <textColor value="$preset_fs25_colorMainLight"/>
+    </Profile>
+    <Profile name="lsfmCarouselPosition" extends="fs25_textDefault" with="anchorTopCenter">
+      <position value="0px -580px"/>
+      <size value="200px 22px"/>
+      <textSize value="14px"/>
+      <textBold value="true"/>
+      <textAlignment value="center"/>
+      <textColor value="$preset_fs25_colorMainHighlight"/>
+    </Profile>
+    <Profile name="lsfmCarouselPositionMarker" extends="baseReference" with="anchorTopCenter">
+      <position value="0px -604px"/>
+      <size value="50px 2px"/>
+      <imageColor value="$preset_fs25_colorMainHighlight"/>
+    </Profile>
+    <Profile name="lsfmCarouselDetailText" extends="fs25_textDefault" with="anchorTopCenter">
+      <position value="0px -616px"/>
+      <size value="705px 44px"/>
+      <textSize value="14px"/>
+      <textAlignment value="center"/>
+      <textVerticalAlignment value="top"/>
+      <textColor value="$preset_fs25_colorMainLight"/>
+      <textMaxNumLines value="2"/>
+    </Profile>
+    <Profile name="lsfmCarouselActionButton" extends="emptyPanel" with="anchorTopCenter">
+      <position value="0px -675px"/>
+      <size value="350px 39px"/>
+      <updateChildrenState value="true"/>
+      <textSize value="15px"/>
+      <textBold value="true"/>
+      <textUpperCase value="true"/>
+      <textAlignment value="center"/>
+      <textColor value="$preset_fs25_colorMainDark"/>
+      <textFocusedColor value="$preset_fs25_colorMainDark"/>
+      <textHighlightedColor value="$preset_fs25_colorMainDark"/>
+      <textDisabledColor value="$preset_fs25_colorDarkBeige"/>
+      <isTriggerableByGlobalAction value="false"/>
+    </Profile>
+    <Profile name="lsfmCarouselActionButtonBg" extends="fs25_settingsButtonBg">
+      <imageColor value="$preset_fs25_colorMainHighlight"/>
+      <startImageColor value="$preset_fs25_colorMainHighlight"/>
+      <endImageColor value="$preset_fs25_colorMainHighlight"/>
+      <imageFocusedColor value="$preset_fs25_colorLightBeige"/>
+      <startImageFocusedColor value="$preset_fs25_colorLightBeige"/>
+      <endImageFocusedColor value="$preset_fs25_colorLightBeige"/>
+    </Profile>
+    <Profile name="ibpGridCard" extends="emptyPanel" with="anchorTopLeft">
+      <size value="118px 118px"/>
+      <updateChildrenState value="true"/>
+      <drawChildrenLast value="true"/>
+      <imageColor value="0 0 0 0"/>
+      <imageHighlightedColor value="0 0 0 0"/>
+      <imageFocusedColor value="0 0 0 0"/>
+      <imagePressedColor value="0 0 0 0"/>
+      <imageSelectedColor value="0 0 0 0"/>
+      <imageDisabledColor value="0 0 0 0"/>
+    </Profile>
+    <Profile name="ibpGridIcon" extends="fs25_shopListItemImage" with="anchorMiddleCenter">
+      <position value="0px 10px"/>
+      <size value="106px 106px"/>
+    </Profile>
+    <Profile name="ibpGridCount" extends="fs25_textDefault" with="anchorTopRight">
+      <position value="-14px -14px"/>
+      <size value="44px 20px"/>
+      <textSize value="13px"/>
+      <textBold value="true"/>
+      <textAlignment value="right"/>
+      <textColor value="$preset_fs25_colorMainHighlight"/>
+      <textSelectedColor value="$preset_fs25_colorMainDark"/>
+      <textSelectedOffset value="0px 0px"/>
+    </Profile>
+  <Profile name="ibpOverflowButton" extends="lsfmCarouselActionButton" with="anchorTopCenter"><position value="0px -509px"/><size value="300px 28px"/><textSize value="12px"/><textColor value="$preset_fs25_colorMainHighlight"/><textFocusedColor value="$preset_fs25_colorMainHighlight"/></Profile></GUIProfiles>
+</GUI>

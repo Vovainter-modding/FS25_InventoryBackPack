@@ -1,5 +1,7 @@
 # Inventory BackPack for Multiplayer — Рюкзак для Farming Simulator 25
 
+![Логотип Inventory BackPack](assets/backpack-preview.png)
+
 **Версия:** 1.0.0.0  
 **Автор:** Vovainter  
 **Игра:** Farming Simulator 25 (ПК)  

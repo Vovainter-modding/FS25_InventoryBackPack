@@ -1,5 +1,7 @@
 # Inventory BackPack for Multiplayer — Farming Simulator 25
 
+![Inventory BackPack logo](assets/backpack-preview.png)
+
 **Version:** 1.0.0.0  
 **Author:** Vovainter  
 **Game:** Farming Simulator 25 (PC)  
