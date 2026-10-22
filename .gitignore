@@ -1,0 +1,13 @@
+# Local development / generated files
+*.log
+*.bak
+*.tmp
+*.orig
+.DS_Store
+Thumbs.db
+__pycache__/
+.vscode/
+.idea/
+# Game save data is not source code
+savegame*/
+InventoryBackPack.xml
