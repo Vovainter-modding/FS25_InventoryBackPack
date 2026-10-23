@@ -2,10 +2,22 @@
 
 ![Логотип Inventory BackPack](assets/backpack-preview.png)
 
-**Версия:** 1.0.0.0  
+**Последний опубликованный релиз:** [v1.0.0.1](https://github.com/Vovainter-modding/FS25_InventoryBackPack/releases/latest)  
 **Автор:** Vovainter  
 **Игра:** Farming Simulator 25 (ПК)  
 **Режим:** Одиночная игра и мультиплеер, включая dedicated-серверы
+
+[![Последняя версия](https://img.shields.io/github/v/release/Vovainter-modding/FS25_InventoryBackPack?label=Latest%20Release)](https://github.com/Vovainter-modding/FS25_InventoryBackPack/releases/latest)
+
+**[⬇ Скачать последнюю готовую сборку](https://github.com/Vovainter-modding/FS25_InventoryBackPack/releases/latest)**
+
+## Что нового в релизе v1.0.0.1
+
+- Переработана обработка клавиш `I` и `Y`, чтобы уменьшить конфликты с управлением техникой.
+- В последнюю тестовую сборку добавлено автоматическое переключение интерфейса на **русский, английский и немецкий** языки.
+- Работа клавиш на выделенных серверах продолжает тестироваться. О повторяющихся конфликтах сообщайте в Issues.
+
+**Об исходниках:** Ветка `main` пока содержит исходный снимок кода версии v1.0.0.0. Готовый игровой ZIP последнего релиза находится в **Releases**. Старые `modDesc.xml` и Lua-файлы в `main` не следует путать с актуальной сборкой.
 
 ## О моде
 
