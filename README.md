@@ -2,12 +2,25 @@
 
 ![Inventory BackPack logo](assets/backpack-preview.png)
 
-**Version:** 1.0.0.0  
+**Latest published version:** [v1.0.0.1](https://github.com/Vovainter-modding/FS25_InventoryBackPack/releases/latest)  
 **Author:** Vovainter  
 **Game:** Farming Simulator 25 (PC)  
 **Mode:** Singleplayer and multiplayer, including dedicated servers
 
 [Русское описание / Russian documentation](README_RU.md)
+
+[![Latest release](https://img.shields.io/github/v/release/Vovainter-modding/FS25_InventoryBackPack?label=Latest%20Release)](https://github.com/Vovainter-modding/FS25_InventoryBackPack/releases/latest)
+
+**[⬇ Download the latest game-ready ZIP](https://github.com/Vovainter-modding/FS25_InventoryBackPack/releases/latest)**
+
+## Latest release — v1.0.0.1
+
+- Updated backpack input handling to reduce conflicts with vehicle controls (`I` / `Y`).
+- Added automatic interface localisation for **English, German and Russian** in the latest test build.
+- Dedicated-server input handling is still being tested; please report any recurring control conflicts.
+
+**Source note:** This repository's `main` branch still contains the original v1.0.0.0 source snapshot. The published game ZIP is available under **Releases**; the original `modDesc.xml` and Lua files on `main` should not be mistaken for the latest packaged build.
+
 
 ## About
 
